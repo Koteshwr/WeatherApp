@@ -10,7 +10,7 @@ Features
 ## Prerequisites
 
 Before running the frontend of the React Weather App, ensure that you have the following installed:
-```bash
+```python
     Node.js (v14 or above)
     npm (Node Package Manager)
 ```
@@ -51,6 +51,6 @@ If you'd like to contribute to the frontend of this project, feel free to submit
 This project is licensed under the MIT License - see the LICENSE file for details.
 ## Acknowledgments
 
-    Thanks to the React community for providing the tools and resources to build this app.
-    Thanks to the developers of the various packages and libraries used in this project.
+Thanks to the React community for providing the tools and resources to build this app.
+Thanks to the developers of the various packages and libraries used in this project.
 
