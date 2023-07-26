@@ -20,20 +20,20 @@ Follow these steps to set up and run the frontend of the application:
 
     Clone the repository:
 
-```bash
+```python
 
 git clone https://github.com/your-username/react-weather-app-frontend.git
 cd react-weather-app-frontend
 ````
     Install the required dependencies:
 
-```bash
+```python
 
 npm install
 ```
     Start the React app:
 
-```bash
+```python
 
 npm start
 ```
