@@ -48,9 +48,7 @@ By default, the frontend app is configured to call the Django backend API.
 ## Contributing
 
 If you'd like to contribute to the frontend of this project, feel free to submit pull requests or open issues in the repository. Your contributions are welcome!
-## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
 ## Acknowledgments
 
 Thanks to the React community for providing the tools and resources to build this app.
