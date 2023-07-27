@@ -3,9 +3,11 @@
 This repository contains the frontend code for the React Weather App. The app allows users to search for a city name and retrieve weather details such as temperature, humidity, wind speed, and weather conditions.
 Features
 
-Search for weather data by city name.
-Display temperature, humidity, wind speed, and weather condition for the selected city.
-Clean and intuitive user interface.
+###Search for weather data by city name.
+
+###Display temperature, humidity, wind speed, and weather condition for the selected city.
+
+###Clean and intuitive user interface.
 
 ## Prerequisites
 
