@@ -3,11 +3,11 @@
 This repository contains the frontend code for the React Weather App. The app allows users to search for a city name and retrieve weather details such as temperature, humidity, wind speed, and weather conditions.
 Features
 
-###Search for weather data by city name.
+1.Search for weather data by city name.
 
-###Display temperature, humidity, wind speed, and weather condition for the selected city.
+2.Display temperature, humidity, wind speed, and weather condition for the selected city.
 
-###Clean and intuitive user interface.
+3.Clean and intuitive user interface.
 
 ## Prerequisites
 
@@ -20,20 +20,20 @@ Before running the frontend of the React Weather App, ensure that you have the f
 
 Follow these steps to set up and run the frontend of the application:
 
-    Clone the repository:
+Clone the repository:
 
 ```python
 
 git clone https://github.com/your-username/react-weather-app-frontend.git
 cd react-weather-app-frontend
 ````
-    Install the required dependencies:
+Install the required dependencies:
 
 ```python
 
 npm install
 ```
-    Start the React app:
+Start the React app:
 
 ```python
 
