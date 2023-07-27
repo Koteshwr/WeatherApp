@@ -14,7 +14,7 @@ const Panel = () => {
   const [region, setRegion] = useState("------");
   const [country, setCountry] = useState("------");
   const [time, setTime] = useState("------")
-  const [city, setCity] = useState("vizianagaram");
+  const [city, setCity] = useState("");
 
 
   useEffect(() => {
@@ -46,15 +46,13 @@ const Panel = () => {
 
   const onChangeInput = (event) => {
     setCity(event.target.value);
-    console.log(city);
-
   }
-  const handleClick = (city) => {
+  const handleClick = () => {
     console.log(city)
     const fetchapi = async () => {
       try {
-        const city = document.getElementById("search").value;
-        const url = `http://127.0.0.1:8000/weather/?location=${city}`;
+        const location = city;
+        const url = `http://127.0.0.1:8000/weather/?location=${location}`;
         let res = await fetch(url);
         const weather_data = await res.json();
         console.log(weather_data)
@@ -101,10 +99,10 @@ const Panel = () => {
         </div>
       </div>
       <div className="panel" >
-        <form id="locationInput">
-          <input type="search" className="search" id="search" placeholder="Search Location..." defaultValue={city} onChange={onChangeInput} />
-          <button type="submit" className="submit" onClick={handleClick()}><i className="fas fa-search"></i></button>
-        </form>
+        <div id="locationInput">
+          <input type="search" className="search" id="search" placeholder="Search Location..." value={city} onChange={onChangeInput} />
+          <button  className="submit" onClick={handleClick}><i className="fas fa-search"></i></button>
+        </div>
 
         <ul className="cities">
           <li className="city"><i className="fa-solid fa-location-dot"></i> {city}</li>
