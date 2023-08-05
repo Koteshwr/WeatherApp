@@ -52,7 +52,7 @@ const Panel = () => {
     const fetchapi = async () => {
       try {
         const location = city;
-        const url = `http://ec2-18-220-108-4.us-east-2.compute.amazonaws.com:8000/weather/?location=${location}`;
+        const url = `http://api.weatherapi.com/v1/current.json?key=4d79e55339a04667aad150429232407&q={location}`;
         let res = await fetch(url);
         const weather_data = await res.json();
         console.log(weather_data)
